@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Horizontal Slider Example</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<div class="hsldr-container">
+
+	<figure>
+		<img src="images/wider.jpg" />
+		<figcaption>Car in the snow</figcaption>
+	</figure>
+	<figure>
+		<img src="images/f5bd8360.jpg" />
+		<figcaption>People surfing</figcaption>
+	</figure>
+	<figure>
+		<img src="images/photo-1415769663272-8504c6cc02b3.jpg" />
+		<figcaption>Girl with the balloon</figcaption>
+	</figure>
+	<figure>
+		<img src="images/photo-1418662589339-364ad47f98a2.jpg" />
+		<figcaption>Ice surfing</figcaption>
+	</figure>
+	<figure>
+		<img src="images/photo-1423483786645-576de98dcbed.jpg" />
+		<figcaption>Golden hair</figcaption>
+	</figure>
+	<figure>
+		<img src="images/photo-1424470535838-79a00dc41aa5.jpg" />
+		<figcaption>Antartica</figcaption>
+	</figure>
+	<figure>
+		<img src="images/photo-1428069940893-209d71f133cf.jpg" />
+		<figcaption>Mofler</figcaption>
+	</figure>
+	<figure>
+		<img src="images/photo-1430834447668-d44a17fc36fe.jpg" />
+		<figcaption>The hard worker</figcaption>
+	</figure>
+	<figure>
+		<img src="images/photo-1446902236611-65b30daefc2a.jpg" />
+		<figcaption>Winter lamps</figcaption>
+	</figure>
+	<figure>
+		<img src="images/photo-1428471226620-c2698eadf413.jpg" />
+		<figcaption>Winter lamps</figcaption>
+	</figure>				
+	<figure>
+		<img src="images/wider2.jpg" />
+		<figcaption>Winter lamps</figcaption>
+	</figure>
+
+</div>
+
+
+
+<br><br><br>
+
+
+
+<div class="hsldr-container">
+
+	<ul>
+		<li>
+			<img src="images/photo-1444491741275-3747c53c99b4.jpg" />
+			<div class="caption">This is a caption</div>
+		</li>
+		<li>
+			<img src="images/photo-1444412667101-4eccfdeeff07.jpg" />
+			<div class="caption">This is another caption</div>
+		</li>
+		<li>
+			<img src="images/photo-1441123100240-f9f3f77ed41b.jpg" />
+		</li>
+		<li>
+			<img src="images/photo-1441790844170-ec5dc89c7eae.jpg" />
+		</li>
+		<li>
+			<img src="images/photo-1440504738219-a74a11143d50.jpg" />
+			<div class="caption">This is one more caption</div>
+		</li>
+		<li>
+			<img src="images/photo-1431727460781-fa165e66bffa.jpg" />
+		</li>
+		<li>
+			<img src="images/photo-1446410320700-66a291be8daa.jpg" />
+			<div class="caption">This is also a caption</div>
+		</li>
+		<li>
+			<img src="images/photo-1428471226620-c2698eadf413.jpg" />
+		</li>
+		<li>
+			<img src="images/photo-1441110317034-95e16e111f8f.jpg" />
+		</li>
+		<li>
+			<img src="images/photo-1440508319978-8b67875e39d7.jpg" />
+		</li>
+	</ul>
+
+</div>
+
+
+<br><br><br>
+<br><br><br>
+
+
+<script src="js/jquery-2.2.1.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/jquery.hslider.js"></script>
+
+<script type="text/javascript">       
+	$( document ).ready(function() { 
+		//$( ".hsldr-container" ).hslider("navBar:false"); // create slider
+		$( ".hsldr-container" ).hslider({
+		  navBar: true,
+		  auto: true,
+		  delay: 4000
+		});
+
+
+	});		
+
+</script>   
+
+</body>
+
+</html>
